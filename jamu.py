@@ -1,7 +1,7 @@
 import streamlit as st
 
-# Fungsi untuk membuat menu di bagian bawah
-def bottom_menu():
+# Fungsi untuk membuat menu di bagian atas
+def top_menu():
     st.sidebar.title("Menu")
 
     selected_menu = st.sidebar.selectbox("Select Menu", ["Menu 1", "Menu 2"])
@@ -44,7 +44,7 @@ def contact():
 def main():
     st.sidebar.title("Jamu Madura")
 
-    bottom_menu()  # Menampilkan menu di bagian bawah
+    top_menu()  # Menampilkan menu di bagian atas
 
     # Content
     st.title("Main Content")  # Judul konten utama
