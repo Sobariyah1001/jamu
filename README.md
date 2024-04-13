@@ -1,2 +1,1 @@
 # jamu
-prediction jamu madura
